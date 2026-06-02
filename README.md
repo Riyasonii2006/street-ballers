@@ -18,6 +18,24 @@
 - **3D Graphics:** [Three.js](https://threejs.org/)
 - **Animations:** [GSAP](https://gsap.com/)
 
+## 📁 Folder Structure
+
+```
+street-ballers/
+├── public/                  # Static assets served as-is
+│   ├── favicon.svg          # Custom Y68° brand favicon
+│   ├── icons.svg            # SVG icon sprite sheet
+│   └── models/
+│       └── basketball.glb   # 3D basketball model (GLB format)
+├── src/
+│   ├── main.js              # Application entry — Three.js scene, GSAP animations, interactions
+│   └── style.css            # Global styles — liquid-glass effects, layout, responsive design
+├── index.html               # Main HTML — hero, stats, how-it-works, footer sections
+├── vite.config.js           # Vite build configuration
+├── package.json             # Project metadata & dependencies
+└── .gitignore               # Git ignore rules
+```
+
 ## 🛠️ Running Locally
 
 To get a local copy up and running, follow these simple steps:
